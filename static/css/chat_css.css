@@ -1,3 +1,4 @@
+/* CSS Document */
 body {
     font:12px arial;
     color: #222;
@@ -10,15 +11,16 @@ form, p, span {
   
 input { font:12px arial; }
   
-p {
+a {
     color:#0000FF;
     text-decoration:none; }
   
+    a:hover { text-decoration:underline; }
   
 #wrapper, #loginform {
     margin:0 auto;
-    padding-bottom:5px;
-    background:chartreuse;
+    padding-bottom:25px;
+    background:#EBF4FB;
     width:504px;
     border:1px solid #ACD8F0; }
   
@@ -43,8 +45,12 @@ p {
   
 #submit { width: 60px; }
   
+.error { color: #ff0000; }
   
-#menu { padding:10.5px 25px 12.5px 25px; }
+#menu { padding:12.5px 25px 12.5px 25px; }
   
+.welcome { float:left; }
+  
+.logout { float:right; }
   
 .msgln { margin:0 0 2px 0; }
